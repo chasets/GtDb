@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T11:19:03.832-04:00"
+						"dateAndTimeString" : "2025-03-24T12:20:25.202-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "4OUTz3ntDQCs2/MiBjHszQ=="
 				},
-				"code" : "\"GtHomeMultiCardSection\"\rGtDbHomeSection "
+				"code" : "\"GtHomeMultiCardSection\"\rGtDbHomeSection \r\"copy methods from GtHomeMultiCardGetStartedSection\"\r\"defaultPriority, sectionTitle, gtUseKnowledgeBaseCard\""
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -142,6 +142,80 @@
 					"uidString" : "+AyY3nntDQCt5IPBBjHszQ=="
 				},
 				"code" : "dbName := 'chasets\\GtDb\\lepiter'.\r\rGtHomeCard lepiterBaseWithTableOfContents\r\t\ttitle: 'GtDb Home Card';\r\t\tdescription: 'Explore GtDb knowledge base';\r\t\tpriority: 1;\r\t\tdatabaseName: dbName;\r\t\trecentlyEditedPage;\r\t\teditableToolbar;\r\t\tdetails: [ :db | \r\t\t\t| snippets somePages |\r\t\t\tsomePages := db pages select: #shouldAppearInIndexOrDailyNotes.\r\t\t\tsnippets := somePages flatCollect: #allChildrenDepthFirst.\r\t\t\t'Your local knowledge base includes '\r\t\t\t\t, somePages size asString , ' pages containing '\r\t\t\t\t, snippets size asString , ' snippets of '\r\t\t\t\t, (snippets groupedBy: #class) size asString , ' different kinds.' ]\r\t\t\t\tyourself"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-24T12:20:40.665-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-24T12:21:53.68-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wCffuHrtDQCTfLcSDyJIXg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Use this to create {{gtMethod:name=GtDbHomeSection>>#gtUsedKnowledgeBaseCard}}.   **Don't forget to return GtHomeCard**"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-24T12:20:55.375-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-24T12:22:25.12-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "sJy/uXrtDQCTkJp8DyJIXg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "add {{gtMethod:name=GtHome>>gtdbSection}} which is just a copy of {{gtMethod:name=GtHome>>getStartedSection}}"
 			},
 			{
 				"__type" : "pharoSnippet",
