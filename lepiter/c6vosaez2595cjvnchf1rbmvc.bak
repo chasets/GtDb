@@ -205,7 +205,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T12:20:55.947-04:00"
+						"dateAndTimeString" : "2025-03-24T12:22:25.12-04:00"
 					}
 				},
 				"uid" : {
@@ -215,7 +215,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "add {{gtMethod:name=GtHome>>gtdbUsqlSection}} which is just a copy of {{gtMethod:name=GtHome>>getStartedSection}}"
+				"string" : "add {{gtMethod:name=GtHome>>gtdbSection}} which is just a copy of {{gtMethod:name=GtHome>>getStartedSection}}"
 			},
 			{
 				"__type" : "pharoSnippet",

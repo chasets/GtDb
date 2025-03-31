@@ -134,14 +134,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T12:08:50.131-04:00"
+						"dateAndTimeString" : "2025-03-31T08:45:57.354895-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "+AyY3nntDQCt5IPBBjHszQ=="
 				},
-				"code" : "dbName := 'chasets\\GtDb\\lepiter'.\r\rGtHomeCard lepiterBaseWithTableOfContents\r\t\ttitle: 'GtDb Home Card';\r\t\tdescription: 'Explore GtDb knowledge base';\r\t\tpriority: 1;\r\t\tdatabaseName: dbName;\r\t\trecentlyEditedPage;\r\t\teditableToolbar;\r\t\tdetails: [ :db | \r\t\t\t| snippets somePages |\r\t\t\tsomePages := db pages select: #shouldAppearInIndexOrDailyNotes.\r\t\t\tsnippets := somePages flatCollect: #allChildrenDepthFirst.\r\t\t\t'Your local knowledge base includes '\r\t\t\t\t, somePages size asString , ' pages containing '\r\t\t\t\t, snippets size asString , ' snippets of '\r\t\t\t\t, (snippets groupedBy: #class) size asString , ' different kinds.' ]\r\t\t\t\tyourself"
+				"code" : "dbName := (LeDatabasesRegistry uniqueInstance defaultLogicalDatabase databases detect: [:i | i databaseName includesSubstring: 'GtDb']) databaseName.\r\rGtHomeCard lepiterBaseWithTableOfContents\r\t\ttitle: 'GtDb Home Card';\r\t\tdescription: 'Explore GtDb knowledge base';\r\t\tpriority: 1;\r\t\tdatabaseName: dbName;\r\t\trecentlyEditedPage;\r\t\teditableToolbar;\r\t\tdetails: [ :db | \r\t\t\t| snippets somePages |\r\t\t\tsomePages := db pages select: #shouldAppearInIndexOrDailyNotes.\r\t\t\tsnippets := somePages flatCollect: #allChildrenDepthFirst.\r\t\t\t'Your local knowledge base includes '\r\t\t\t\t, somePages size asString , ' pages containing '\r\t\t\t\t, snippets size asString , ' snippets of '\r\t\t\t\t, (snippets groupedBy: #class) size asString , ' different kinds.' ]\r\t\t\t\tyourself"
 			},
 			{
 				"__type" : "textSnippet",
