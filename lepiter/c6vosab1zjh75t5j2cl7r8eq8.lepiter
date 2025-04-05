@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-03T08:41:10.904734-04:00"
+						"dateAndTimeString" : "2025-04-04T09:58:00.540404-04:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "[[Step 1 - wrapper objects for database \"rows\"]]"
 			},
 			{
 				"__type" : "textSnippet",

@@ -183,7 +183,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T14:22:41.969-04:00"
+									"dateAndTimeString" : "2025-03-24T14:22:44.834-04:00"
 								}
 							},
 							"uid" : {
@@ -193,7 +193,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "GtDbResults - GtDb"
+							"string" : "GtDbResults - GtDbResult"
 						}
 					]
 				},
