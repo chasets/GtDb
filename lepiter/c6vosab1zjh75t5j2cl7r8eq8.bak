@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T15:29:23.545158-04:00"
+						"dateAndTimeString" : "2025-04-05T15:29:28.075396-04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Step 3 - hook GtDbRows up with an access class via "
+				"string" : "[[Step 3 - hook GtDbRows up with an access class via a databaseConfig]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-05T18:00:47.14279-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-05T18:00:59.699741-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "asdJ33DuDQClr8hQCUwPeA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[Step 4 - add query ability to "
 			},
 			{
 				"__type" : "textSnippet",
