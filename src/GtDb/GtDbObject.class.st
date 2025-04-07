@@ -61,7 +61,7 @@ GtDbObject >> gtSQLFor: aView [
 GtDbObject >> query: aSqlString [
 	| db |
 	db := self databaseObject.
-	db query: aSqlString
+	^ db query: aSqlString
 ]
 
 { #category : #accessing }

@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T18:00:59.699741-04:00"
+						"dateAndTimeString" : "2025-04-05T18:02:43.442044-04:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,81 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Step 4 - add query ability to "
+				"string" : "[[Step 4 - add query ability to GtDb object]]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-07T12:14:01.03873-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-07T12:14:23.690744-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RpXUQpTuDQCoz6XPDmmKFg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[Step 5 - wire"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-07T12:08:51.494879-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-07T12:13:58.188624-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "PUthMJTuDQCn/q3pDmmKFg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "[[Step 6 - InformationSchema]]"
 			},
 			{
 				"__type" : "textSnippet",
