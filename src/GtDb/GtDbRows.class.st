@@ -6,5 +6,11 @@ Class {
 
 { #category : #'as yet unclassified' }
 GtDbRows >> items [
-	^ rawData collect: [ :each | GtDbRow new rawData: each ] 
+	^ rawData collect: [ :each | GtDbRow new databaseObject: self databaseObject; rawData: each ] 
+]
+
+{ #category : #'as yet unclassified' }
+GtDbRows >> rawData [
+	rawData ifNil: [rawData := self databaseObject structuredResults].
+	^ rawData
 ]

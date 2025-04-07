@@ -174,14 +174,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-05T18:34:03.760867-04:00"
+									"dateAndTimeString" : "2025-04-07T11:46:08.337931-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "3caoUXHuDQCs1UXjCUwPeA=="
 							},
-							"code" : "GtDbObject new databaseConfig: dbConfig"
+							"code" : "GtDbObject new databaseConfig: dbConfig; query: 'select * from album'"
 						}
 					]
 				},
@@ -204,7 +204,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T18:31:57.985445-04:00"
+						"dateAndTimeString" : "2025-04-07T11:46:24.97435-04:00"
 					}
 				},
 				"uid" : {
@@ -214,13 +214,48 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Add this to GtDbObject along with a view for executing sql. "
+				"string" : "Add this to GtDbObject along with a view for executing sql. GtDbRows inherits the ability to run a query. Let's not throw away the `db` object after we execute a query, but let's preserve it. Add a `databaseObject` to hold this and a View to see it."
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-07T09:54:08.166255-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-07T11:41:53.01451-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "FIeTTpLuDQCKf9uqDCh4rA=="
+							},
+							"code" : "GtDbRows new databaseConfig: dbConfig; query: 'select * from album'"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -230,7 +265,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T18:35:25.870712-04:00"
+						"dateAndTimeString" : "2025-04-07T09:54:26.140581-04:00"
 					}
 				},
 				"editEmail" : {
@@ -241,17 +276,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T19:37:18.73208-04:00"
+						"dateAndTimeString" : "2025-04-07T11:39:47.714355-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "MgXPWXHuDQChQ1A/DmAZag=="
+					"uidString" : "zJ1yT5LuDQCKhFZ2DCh4rA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "GtDbRows inherits the ability to run a query. "
+				"string" : "More commonly used to get Rows. Let's require the databaseObject to hold onto the query results (the raw query output) and the query structuredResults (a Dictionary made from the query output)"
 			}
 		]
 	},

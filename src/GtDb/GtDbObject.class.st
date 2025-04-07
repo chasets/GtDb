@@ -3,7 +3,8 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'rawData',
-		'databaseConfig'
+		'databaseConfig',
+		'databaseObject'
 	],
 	#category : #'GtDb-Core'
 }
@@ -16,6 +17,27 @@ GtDbObject >> databaseConfig [
 { #category : #accessing }
 GtDbObject >> databaseConfig: anObject [
 	databaseConfig := anObject
+]
+
+{ #category : #accessing }
+GtDbObject >> databaseObject [
+	databaseObject
+		ifNil: [ databaseObject := (self databaseConfig databaseDriverClassname asClass new) databaseConfig: self databaseConfig ].
+	^ databaseObject
+]
+
+{ #category : #accessing }
+GtDbObject >> databaseObject: anObject [
+	databaseObject := anObject
+]
+
+{ #category : #'as yet unclassified' }
+GtDbObject >> gtDatabaseObjectFor: aView [
+	<gtView>
+	^ aView list 
+		title: 'Database Object';
+		priority: 22;
+		items: [{self databaseObject}]
 ]
 
 { #category : #'as yet unclassified' }
@@ -38,9 +60,8 @@ GtDbObject >> gtSQLFor: aView [
 { #category : #'as yet unclassified' }
 GtDbObject >> query: aSqlString [
 	| db |
-	db := (self databaseConfig databaseDriverClassname asClass) new.
-	db databaseConfig: self databaseConfig.  		
-	^ db query: aSqlString
+	db := self databaseObject.
+	db query: aSqlString
 ]
 
 { #category : #accessing }
