@@ -31,25 +31,12 @@ InformationSchemaSqliteSql >> informationSchemaType [
 ]
 
 { #category : #'as yet unclassified' }
-InformationSchemaSqliteSql >> schemaSqlForCatalog: catalog [
+InformationSchemaSqliteSql >> schemataSqlForCatalog: catalog [
 	| sqlTemplate |
 	sqlTemplate := '
 select
 	name as catalog_name, 
 	name as schema_name
-from pragma_database_list
-where name = ''{1}''
-'.
-	^ sqlTemplate format: {catalog}
-]
-
-{ #category : #'as yet unclassified' }
-InformationSchemaSqliteSql >> schemataSqlFor: catalog [
-	"sqlite doesn't really have schemas, so just reuse the catalog name"
-	| sqlTemplate |
-	sqlTemplate := '
-select 
-	name as catalog_name, name as schema_name
 from pragma_database_list
 where name = ''{1}''
 '.

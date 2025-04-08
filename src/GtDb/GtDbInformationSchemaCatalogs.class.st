@@ -4,6 +4,11 @@ Class {
 	#category : #'GtDb-InformationSchema'
 }
 
+{ #category : #'as yet unclassified' }
+GtDbInformationSchemaCatalogs >> items [
+	^ rawData collect: [ :each | GtDbInformationSchemaCatalog new databaseObject: self databaseObject; rawData: each]
+]
+
 { #category : #accessing }
 GtDbInformationSchemaCatalogs >> retrieve [
 	| sql results |

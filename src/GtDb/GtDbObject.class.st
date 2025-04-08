@@ -12,6 +12,7 @@ Class {
 
 { #category : #accessing }
 GtDbObject >> databaseConfig [
+	databaseConfig ifNil: [databaseConfig := self databaseObject databaseConfig].
 	^ databaseConfig
 ]
 
@@ -37,7 +38,7 @@ GtDbObject >> gtDatabaseObjectFor: aView [
 	<gtView>
 	^ aView list 
 		title: 'Database Object';
-		priority: 22;
+		priority: 35;
 		items: [{self databaseObject}]
 ]
 

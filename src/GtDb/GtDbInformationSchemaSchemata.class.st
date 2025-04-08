@@ -5,17 +5,25 @@ Class {
 }
 
 { #category : #'as yet unclassified' }
-GtDbInformationSchemaSchemata >> retrieve [
-	| sql results |
-	sql := self informationSchemaSqlProvider schemataSqlFor: 'main'.
-	results := self query: sql.
-	self rawData: results 
+GtDbInformationSchemaSchemata >> gtSchemataFor: aView [
+	<gtView>
+	^ aView columnedList 
+		title: 'Details';
+		priority: 1;
+		items: [self items sorted];
+		column: 'Catalog' text: #catalog;
+		column: 'Schema' text: #name
 ]
 
 { #category : #'as yet unclassified' }
-GtDbInformationSchemaSchemata >> retrieveForCatalog: catalog [
+GtDbInformationSchemaSchemata >> items [
+	^ rawData collect: [ :each | GtDbInformationSchemaSchema new databaseObject: self databaseObject; catalogName: self catalogName; rawData: each]
+]
+
+{ #category : #'as yet unclassified' }
+GtDbInformationSchemaSchemata >> retrieve [
 	| sql results |
-	sql := self informationSchemaSqlProvider schemataSqlFor: catalog.
+	sql := self informationSchemaSqlProvider schemataSqlForCatalog: self catalogName.
 	results := self query: sql.
 	self rawData: results 
 ]

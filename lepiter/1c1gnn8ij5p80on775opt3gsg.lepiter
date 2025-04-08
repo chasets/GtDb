@@ -359,14 +359,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T12:34:09.437065-04:00"
+									"dateAndTimeString" : "2025-04-08T16:21:20.889009-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "muoj46XuDQCDj4HoDmmKFg=="
 							},
-							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveForTable: 'album' forSchema: 'main' forCatalog: 'main'"
+							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; catalogName: 'main'; schemaName: 'main'; tableName: 'album'; retrieve"
 						}
 					]
 				},
@@ -389,7 +389,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-08T09:15:38.705982-04:00"
+						"dateAndTimeString" : "2025-04-08T16:19:03.362859-04:00"
 					}
 				},
 				"uid" : {
@@ -399,7 +399,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Each of these needs to handle `retrieve` and `items` messages. As we go deeper into the hierarchy `retrieve` will be supported by mroe specific messages. "
+				"string" : "Each of these needs to handle `retrieve` and `items` messages. As we go deeper into the hierarchy `retrieve` will be supported by methods to set the hierarchy context. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -431,14 +431,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T15:14:04.15671-04:00"
+									"dateAndTimeString" : "2025-04-08T16:07:03.012769-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "h1/S86XuDQCHAGJdDmmKFg=="
 							},
-							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveForTable: 'album'"
+							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveForTable: 'album' forSchema: 'main' forCatalog: 'main'"
 						}
 					]
 				},
@@ -537,14 +537,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T15:19:25.432757-04:00"
+									"dateAndTimeString" : "2025-04-08T15:29:36.967949-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "6sG896ruDQCB61B6A4WUGg=="
 							},
-							"code" : ""
+							"code" : "GtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieve"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -571,14 +571,301 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T15:20:07.924489-04:00"
+									"dateAndTimeString" : "2025-04-08T16:25:31.44977-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "sRqu9aXuDQCHX8CKDmmKFg=="
 							},
-							"code" : "GtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieve"
+							"code" : "GtDbInformationSchemaSchemata new databaseConfig: dbConfig; catalogName: 'main'; retrieve."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T15:30:24.34786-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:56:46.194998-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "a/4CH6vuDQCE88H6A4WUGg=="
+							},
+							"code" : "GtDbInformationSchemaTables new databaseConfig: dbConfig; catalogName: 'main'; schemaName: 'main'; retrieve."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T15:32:05.933947-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:59:16.817264-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "1xMRJavuDQCFzFkbA4WUGg=="
+							},
+							"code" : "GtDbInformationSchemaColumns new databaseConfig: dbConfig; catalogName: 'main'; schemaName: 'main'; tableName: 'Album'; retrieve."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T15:33:08.516516-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T15:33:08.516516-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "OAXMKKvuDQCGbGZGA4WUGg=="
+							},
+							"code" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:19.336156-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:19.336156-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "bPzhm6vuDQCrjksxBwKTLw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:19.991412-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:19.991412-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "BPjrm6vuDQCrktdHBwKTLw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:20.164213-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:06:02.034271-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "KaDum6vuDQCrltiTBwKTLw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "TODO: Do we need something in the sql classes for `current_schema` and `current_catalog`. sqlite can't use this, but we could fake it. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:20.34998-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:20.34998-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "o3Xxm6vuDQCrmuDzBwKTLw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:20.53828-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T16:05:20.53828-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "RFH0m6vuDQCrnhpJBwKTLw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						}
 					]
 				},
