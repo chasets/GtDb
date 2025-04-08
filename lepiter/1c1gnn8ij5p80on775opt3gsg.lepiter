@@ -431,14 +431,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T12:38:47.33136-04:00"
+									"dateAndTimeString" : "2025-04-08T15:14:04.15671-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "h1/S86XuDQCHAGJdDmmKFg=="
 							},
-							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveFor: 'album'"
+							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveForTable: 'album'"
 						}
 					]
 				},
@@ -526,6 +526,40 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T15:19:25.432757-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T15:19:25.432757-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6sG896ruDQCB61B6A4WUGg=="
+							},
+							"code" : ""
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-04-08T09:20:56.082204-04:00"
 								}
 							},
@@ -537,14 +571,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T12:47:18.794324-04:00"
+									"dateAndTimeString" : "2025-04-08T15:20:07.924489-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "sRqu9aXuDQCHX8CKDmmKFg=="
 							},
-							"code" : "GtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieveForCatalog: 'main'."
+							"code" : "GtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieve"
 						}
 					]
 				},

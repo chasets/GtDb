@@ -31,6 +31,19 @@ InformationSchemaSqliteSql >> informationSchemaType [
 ]
 
 { #category : #'as yet unclassified' }
+InformationSchemaSqliteSql >> schemaSqlForCatalog: catalog [
+	| sqlTemplate |
+	sqlTemplate := '
+select
+	name as catalog_name, 
+	name as schema_name
+from pragma_database_list
+where name = ''{1}''
+'.
+	^ sqlTemplate format: {catalog}
+]
+
+{ #category : #'as yet unclassified' }
 InformationSchemaSqliteSql >> schemataSqlFor: catalog [
 	"sqlite doesn't really have schemas, so just reuse the catalog name"
 	| sqlTemplate |
@@ -41,4 +54,24 @@ from pragma_database_list
 where name = ''{1}''
 '.
 	^ sqlTemplate format: {catalog}
+]
+
+{ #category : #'as yet unclassified' }
+InformationSchemaSqliteSql >> tableSqlForSchema: schema forCatalog: catalog [
+	| sqlTemplate |
+	sqlTemplate := '
+select 
+	''{1}'' as catalog_name, ''{2}'' as schema_name,
+	name as table_name, 
+	case when type = ''table'' then ''BASE TABLE''
+		 when type = ''view''  then ''VIEW''
+		 else type 
+	end as table_type, sql as table_source
+from {1}.sqlite_master
+where lower(type) <> ''index''
+order by table_name
+'.
+	^ sqlTemplate format: {catalog . schema}
+	
+
 ]

@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #accessing }
-GtDbInformationSchemaColumns >> retrieveFor: table [
+GtDbInformationSchemaColumns >> retrieveForTable: table [
 	self retrieveForTable: table forSchema: 'main' forCatalog: 'main'
 ]
 

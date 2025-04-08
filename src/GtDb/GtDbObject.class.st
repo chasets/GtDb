@@ -4,7 +4,8 @@ Class {
 	#instVars : [
 		'rawData',
 		'databaseConfig',
-		'databaseObject'
+		'databaseObject',
+		'lastSql'
 	],
 	#category : #'GtDb-Core'
 }
@@ -48,7 +49,7 @@ GtDbObject >> gtSQLFor: aView [
 		priority: 30;
 		aptitude: [ BrGlamorousCodeEditorAptitude new ];
 		styler: [ MysqlParser gtStyler ];
-		text: [ '' asRopedText ];
+		text: [ lastSql asRopedText ];
 		actionButtonIcon: BrGlamorousIcons playinspect  
 			action: [ :aButton |
 				| query result |
@@ -60,6 +61,7 @@ GtDbObject >> gtSQLFor: aView [
 { #category : #'as yet unclassified' }
 GtDbObject >> query: aSqlString [
 	| db |
+	lastSql := aSqlString.
 	db := self databaseObject.
 	^ db query: aSqlString
 ]

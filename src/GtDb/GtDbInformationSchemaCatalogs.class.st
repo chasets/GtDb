@@ -5,9 +5,9 @@ Class {
 }
 
 { #category : #accessing }
-GtDbInformationSchemaCatalogs >> retrieveForCatalog: catalog [
+GtDbInformationSchemaCatalogs >> retrieve [
 	| sql results |
-	sql := self informationSchemaSqlProvider schemataSqlFor: catalog.
+	sql := self informationSchemaSqlProvider catalogSql.
 	results := self query: sql.
 	self rawData: results 
 ]
