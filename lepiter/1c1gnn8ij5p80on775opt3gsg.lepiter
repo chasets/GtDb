@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-03T08:41:06.239896-04:00"
+						"dateAndTimeString" : "2025-04-08T09:01:01.35434-04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-03T08:41:10.083655-04:00"
+						"dateAndTimeString" : "2025-04-08T09:01:01.35434-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "enHR0UDuDQCUfEoTAdo+ww=="
+					"uidString" : "ewV4rqXuDQC5dWBTDmmKFg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Get Started]]"
+				"string" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-08T09:01:20.841054-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-08T09:11:25.838499-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "UVehr6XuDQC5qFUGDmmKFg=="
+				},
+				"code" : "\"subclass GtDbRows for collections and GtDbRow for single items\"\rGtDbInformationSchemaCatalogs.\rGtDbInformationSchemaSchemata.\rGtDbInformationSchemaTables.\rGtDbInformationSchemaColumns."
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-03T08:41:10.904734-04:00"
+						"dateAndTimeString" : "2025-04-08T09:22:41.073602-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,165 +100,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-04T09:58:00.540404-04:00"
+						"dateAndTimeString" : "2025-04-08T09:23:09.312359-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "SE9O0kDuDQCU4Al/Ado+ww=="
+					"uidString" : "1xvw+6XuDQCI2RtvDmmKFg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Step 1 - wrapper objects for database \"rows\"]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T15:27:09.764871-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T15:27:09.786082-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "kEyxuW7uDQCNsKMvC/ajAw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Step 2 - basic use of Rows]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T15:27:11.259317-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T15:29:28.075396-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "o4/6uW7uDQCN3WF0C/ajAw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Step 3 - hook GtDbRows up with an access class via a databaseConfig]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T18:00:47.14279-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-05T18:02:43.442044-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "asdJ33DuDQClr8hQCUwPeA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Step 4 - add query ability to GtDb object]]"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-07T12:14:01.03873-04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-07T12:14:39.09131-04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "RpXUQpTuDQCoz6XPDmmKFg=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Step 5 - domain objects using Rows as accessObjects]]"
+				"string" : "See [[Dealing with information_schema with sqlite and duckdb]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -232,7 +118,7 @@
 					"__type" : "snippets",
 					"items" : [
 						{
-							"__type" : "textSnippet",
+							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [ ]
@@ -245,7 +131,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T09:00:34.624324-04:00"
+									"dateAndTimeString" : "2025-04-08T09:15:45.035438-04:00"
 								}
 							},
 							"editEmail" : {
@@ -256,17 +142,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T09:00:57.48778-04:00"
+									"dateAndTimeString" : "2025-04-08T09:19:14.442305-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "CiDgrKXuDQC4Szj1DmmKFg=="
+								"uidString" : "muoj46XuDQCDj4HoDmmKFg=="
 							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[InformationSchema classes]]"
+							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveForTable: 'album' forSchema: 'main' forCatalog: 'main'"
 						}
 					]
 				},
@@ -278,7 +161,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-07T12:08:51.494879-04:00"
+						"dateAndTimeString" : "2025-04-08T09:14:18.957345-04:00"
 					}
 				},
 				"editEmail" : {
@@ -289,17 +172,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-07T12:13:58.188624-04:00"
+						"dateAndTimeString" : "2025-04-08T09:15:38.705982-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "PUthMJTuDQCn/q3pDmmKFg=="
+					"uidString" : "iXzt16XuDQC8fVgiDmmKFg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Step 6 - InformationSchema]]"
+				"string" : "Each of these needs to handle `retrieve` and `items` messages. As we go deeper into the hierarchy `retrieve` will be supported by mroe specific messages. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -307,7 +190,7 @@
 					"__type" : "snippets",
 					"items" : [
 						{
-							"__type" : "textSnippet",
+							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [ ]
@@ -320,7 +203,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T10:55:47.996-04:00"
+									"dateAndTimeString" : "2025-04-08T09:20:24.90433-04:00"
 								}
 							},
 							"editEmail" : {
@@ -331,91 +214,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T10:55:58.288-04:00"
+									"dateAndTimeString" : "2025-04-08T09:20:37.005895-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "eDFTiXntDQCqAk2PBjHszQ=="
+								"uidString" : "h1/S86XuDQCHAGJdDmmKFg=="
 							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Set up a home card]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T14:09:55.78-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T14:10:07.146-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "0EGWP3ztDQCgepUUDNGFcg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[General Architecture notes]]"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T10:55:59.421-04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-03-24T10:55:59.421-04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "YIYBinntDQCqeLr6BjHszQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieve"
 						}
 					]
 				},
@@ -427,7 +233,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T10:55:05.471-04:00"
+						"dateAndTimeString" : "2025-04-08T09:19:22.795292-04:00"
 					}
 				},
 				"editEmail" : {
@@ -438,17 +244,123 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-24T10:55:46.671-04:00"
+						"dateAndTimeString" : "2025-04-08T09:20:15.36322-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "GFTKhnntDQCpxUbrBjHszQ=="
+					"uidString" : "6aYe8KXuDQCE492fDmmKFg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Admin]]"
+				"string" : "With the plain `retrieve` message using defaults where necessary"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T09:21:40.377676-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T09:21:41.221344-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qv1R+KXuDQCIG61iDmmKFg=="
+							},
+							"code" : "dbConfig := GtDbSqliteConfig new."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T09:20:56.082204-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T09:21:59.905662-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "sRqu9aXuDQCHX8CKDmmKFg=="
+							},
+							"code" : "GtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieve."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-08T09:21:00.237883-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-08T09:21:20.046652-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QIXt9aXuDQCHZIfTDmmKFg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Building up from the most general"
 			}
 		]
 	},
@@ -460,7 +372,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-03-24T10:55:05.435-04:00"
+			"dateAndTimeString" : "2025-04-08T09:01:01.318571-04:00"
 		}
 	},
 	"editEmail" : {
@@ -471,15 +383,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-03-24T10:55:32.498-04:00"
+			"dateAndTimeString" : "2025-04-08T09:01:01.318571-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "GtDB ToC"
+		"title" : "InformationSchema classes"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "90c3c986-79ed-0d00-a9c4-094f0631eccd"
+		"uuid" : "c07877ae-a5ee-0d00-b974-7f0d0e698a16"
 	}
 }
