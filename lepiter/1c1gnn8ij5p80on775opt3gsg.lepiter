@@ -42,10 +42,45 @@
 				"string" : ""
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T10:53:42.235107-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T10:55:18.148063-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "gN1yQafuDQC12GWWAjB6YQ=="
+							},
+							"code" : "\"subclass GtDbRows for collections and GtDbRow for single items\"\rGtDbInformationSchemaRows.\rGtDbInformationSchemaRow."
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -55,7 +90,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-08T09:01:20.841054-04:00"
+						"dateAndTimeString" : "2025-04-08T10:53:49.176372-04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +101,202 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-08T09:11:25.838499-04:00"
+						"dateAndTimeString" : "2025-04-08T10:54:03.646971-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "UVehr6XuDQC5qFUGDmmKFg=="
+					"uidString" : "xsPcQafuDQC15g2EAjB6YQ=="
 				},
-				"code" : "\"subclass GtDbRows for collections and GtDbRow for single items\"\rGtDbInformationSchemaCatalogs.\rGtDbInformationSchemaSchemata.\rGtDbInformationSchemaTables.\rGtDbInformationSchemaColumns."
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We do have some common behavior, so to keep things straight, let's make"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T09:01:20.841054-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T10:55:27.919594-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "UVehr6XuDQC5qFUGDmmKFg=="
+							},
+							"code" : "\"subclass GtDbInformationSchemaRows for collections and GtDbInformationSchemaRow for single items\"\rGtDbInformationSchemaCatalogs.\rGtDbInformationSchemaSchemata.\rGtDbInformationSchemaTables.\rGtDbInformationSchemaColumns."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-08T10:54:37.296191-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-08T10:54:48.684136-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5wW7RKfuDQC3rdfZAjB6YQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Now we can make our subclasses "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-08T12:00:56.062868-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-08T12:04:43.431801-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Pi/iMajuDQC7rqURAjB6YQ=="
+										},
+										"code" : "driver := driver := (GtDbSqliteConfig new databaseDriverClassname) asClass new. \rdriver respondsTo: 'informationSchemaSqlClassname' asSymbol"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-08T12:04:53.876537-04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-04-08T12:30:43.134634-04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "9/AOQKjuDQC/atzKAjB6YQ=="
+										},
+										"code" : "dbConfig := GtDbSqliteConfig new.\rsqlProvider := GtDbInformationSchemaRows new databaseConfig: dbConfig; informationSchemaSqlProvider.\rsqlProvider informationSchemaType\r"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T12:01:15.959379-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T12:02:08.907123-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "AMcRM6juDQC8L2ehAjB6YQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The main thing that {{gtClass:name=GtDbInformationSchemaRows}} needs to do is to figure out who is providing the information_schema sql"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -100,7 +317,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-08T09:23:09.312359-04:00"
+						"dateAndTimeString" : "2025-04-08T10:51:17.747637-04:00"
 					}
 				},
 				"uid" : {
@@ -110,7 +327,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See [[Dealing with information_schema with sqlite and duckdb]]"
+				"string" : "See [[Dealing with information_schema with sqlite and duckdb, etc]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -142,7 +359,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T09:19:14.442305-04:00"
+									"dateAndTimeString" : "2025-04-08T12:34:09.437065-04:00"
 								}
 							},
 							"uid" : {
@@ -214,14 +431,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T09:20:37.005895-04:00"
+									"dateAndTimeString" : "2025-04-08T12:38:47.33136-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "h1/S86XuDQCHAGJdDmmKFg=="
 							},
-							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieve"
+							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveFor: 'album'"
 						}
 					]
 				},
@@ -244,7 +461,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-04-08T09:20:15.36322-04:00"
+						"dateAndTimeString" : "2025-04-08T12:38:31.693904-04:00"
 					}
 				},
 				"uid" : {
@@ -254,7 +471,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "With the plain `retrieve` message using defaults where necessary"
+				"string" : "With the plain `retrieve` or `retrieveFor` message using defaults where necessary"
 			},
 			{
 				"__type" : "textSnippet",
@@ -320,14 +537,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T09:21:59.905662-04:00"
+									"dateAndTimeString" : "2025-04-08T12:47:18.794324-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "sRqu9aXuDQCHX8CKDmmKFg=="
 							},
-							"code" : "GtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieve."
+							"code" : "GtDbInformationSchemaCatalogs new databaseConfig: dbConfig; retrieveForCatalog: 'main'."
 						}
 					]
 				},

@@ -293,7 +293,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T09:23:30.417688-04:00"
+									"dateAndTimeString" : "2025-04-08T10:51:17.753339-04:00"
 								}
 							},
 							"uid" : {
@@ -303,7 +303,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Dealing with information_schema with sqlite and duckdb]]"
+							"string" : "[[Dealing with information_schema with sqlite and duckdb, etc]]"
 						}
 					]
 				},

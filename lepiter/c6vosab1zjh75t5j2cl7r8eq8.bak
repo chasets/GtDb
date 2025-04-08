@@ -267,6 +267,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[InformationSchema classes]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T09:23:26.948339-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-04-08T09:23:30.417688-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DSKs/qXuDQCKLK2DDmmKFg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Dealing with information_schema with sqlite and duckdb]]"
 						}
 					]
 				},

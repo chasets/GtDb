@@ -1,5 +1,5 @@
 Class {
 	#name : #GtDbInformationSchemaTables,
-	#superclass : #GtDbRows,
+	#superclass : #GtDbInformationSchemaRows,
 	#category : #'GtDb-InformationSchema'
 }

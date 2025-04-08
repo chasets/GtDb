@@ -677,12 +677,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-04-08T09:23:38.211947-04:00"
+			"dateAndTimeString" : "2025-04-08T10:51:17.725725-04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Dealing with information_schema with sqlite and duckdb"
+		"title" : "Dealing with information_schema with sqlite and duckdb, etc"
 	},
 	"uid" : {
 		"__type" : "uuid",

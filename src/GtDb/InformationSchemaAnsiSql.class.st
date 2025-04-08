@@ -19,3 +19,8 @@ order by ordinal_position
 '.
 	^ sqlTemplate format: {catalog . schema . table}
 ]
+
+{ #category : #'as yet unclassified' }
+InformationSchemaAnsiSql >> informationSchemaType [
+	^ 'ansi'
+]

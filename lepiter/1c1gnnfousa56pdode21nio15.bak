@@ -429,14 +429,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T10:49:05.148158-04:00"
+									"dateAndTimeString" : "2025-04-08T10:49:27.046218-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "9eUnIKfuDQCsz8kfAuDMHw=="
 							},
-							"code" : "catalog := 'main'.\rschema := 'main'.\rtable := 'Album'. \rdriver := (GtDbSqliteConfig new databaseDriverClassname) asClass new. columnSql := driver informationSchemaSqlClassname columnSqlForTable: table forSchema: schema forCatalog: catalog."
+							"code" : "catalog := 'main'.\rschema := 'main'.\rtable := 'Album'. \rdriver := (GtDbSqliteConfig new databaseDriverClassname) asClass new. columnSql := (driver informationSchemaSqlClassname asClass) new columnSqlForTable: table forSchema: schema forCatalog: catalog."
 						}
 					]
 				},

@@ -5,6 +5,11 @@ Class {
 }
 
 { #category : #'as yet unclassified' }
+InformationSchemaSqliteSql >> catalogSql [
+	^ 'select name as catalog_name from pragma_database_list order by seq'
+]
+
+{ #category : #'as yet unclassified' }
 InformationSchemaSqliteSql >> columnSqlForTable: table forSchema: schema forCatalog: catalog [
 	| sqlTemplate |
 	sqlTemplate := '
@@ -18,4 +23,22 @@ from {1}.pragma_table_info(''{3}'')
 order by cid
 '.
 	^ sqlTemplate format: {catalog . schema . table}
+]
+
+{ #category : #'as yet unclassified' }
+InformationSchemaSqliteSql >> informationSchemaType [
+	^ 'sqlite'
+]
+
+{ #category : #'as yet unclassified' }
+InformationSchemaSqliteSql >> schemataSqlFor: catalog [
+	"sqlite doesn't really have schemas, so just reuse the catalog name"
+	| sqlTemplate |
+	sqlTemplate := '
+select 
+	name as catalog_name, name as schema_name
+from pragma_database_list
+where name = ''{1}''
+'.
+	^ sqlTemplate format: {catalog}
 ]
