@@ -18,8 +18,12 @@ GtDbInformationSchemaTable >> data [
 
 { #category : #'as yet unclassified' }
 GtDbInformationSchemaTable >> dataWithLimit: aLimitNumber [
-	^ GtDbRows new databaseConfig: self databaseConfig; query: 'select a.* from ', self schemaName, '.', self name, ' a 
- limit ', aLimitNumber asString; yourself
+	lastSql := '
+select
+	a.* 
+from ', self schemaName, '.', self name, ' a 
+limit ', aLimitNumber asString.
+	^ GtDbRows new databaseConfig: self databaseConfig; query: lastSql; yourself
 ]
 
 { #category : #'as yet unclassified' }

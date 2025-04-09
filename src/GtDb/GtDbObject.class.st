@@ -47,18 +47,20 @@ GtDbObject >> gtSQLFor: aView [
 		text: [ lastSql asRopedText ];
 		actionButtonIcon: BrGlamorousIcons playinspect  
 			action: [ :aButton |
-				| query result |
-				query := aButton phlow textViewContent asString.
-				result := self query: query.
+				| sql result |
+				sql := aButton phlow textViewContent asString.
+				result := GtDbRows new databaseConfig: self databaseConfig; query: sql; yourself.
 				aButton phlow spawnObject: result ]
 ]
 
 { #category : #'as yet unclassified' }
 GtDbObject >> query: aSqlString [
-	| db |
+	| db results |
 	lastSql := aSqlString.
 	db := self databaseObject.
-	^ db query: aSqlString
+	results := db query: aSqlString.
+	rawData := results.
+	^ rawData
 ]
 
 { #category : #accessing }
