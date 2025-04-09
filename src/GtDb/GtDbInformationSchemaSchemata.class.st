@@ -11,7 +11,7 @@ GtDbInformationSchemaSchemata >> gtSchemataFor: aView [
 		title: 'Details';
 		priority: 1;
 		items: [self items sorted];
-		column: 'Catalog' text: #catalog;
+		column: 'Catalog' text: #catalogName;
 		column: 'Schema' text: #name
 ]
 

@@ -33,7 +33,7 @@ GtDbObject >> gtDatabaseObjectFor: aView [
 	^ aView list 
 		title: 'Database Object';
 		priority: 35;
-		items: [{databaseObject}]
+		items: [{self databaseObject}]
 ]
 
 { #category : #'as yet unclassified' }

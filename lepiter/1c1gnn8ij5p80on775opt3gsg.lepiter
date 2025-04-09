@@ -220,14 +220,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-04-08T12:04:43.431801-04:00"
+												"dateAndTimeString" : "2025-04-09T11:11:44.312726-04:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "Pi/iMajuDQC7rqURAjB6YQ=="
 										},
-										"code" : "driver := driver := (GtDbSqliteConfig new databaseDriverClassname) asClass new. \rdriver respondsTo: 'informationSchemaSqlClassname' asSymbol"
+										"code" : "driver := (GtDbSqliteConfig new databaseDriverClassname) asClass new. \rdriver respondsTo: 'informationSchemaSqlClassname' asSymbol"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -431,14 +431,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T16:07:03.012769-04:00"
+									"dateAndTimeString" : "2025-04-09T11:16:31.964592-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "h1/S86XuDQCHAGJdDmmKFg=="
 							},
-							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; retrieveForTable: 'album' forSchema: 'main' forCatalog: 'main'"
+							"code" : "dbConfig := GtDbSqliteConfig new.\rGtDbInformationSchemaColumns new databaseConfig: dbConfig; tableName: 'album'; schemaName: 'main'; catalogName: 'main'; retrieve"
 						}
 					]
 				},
