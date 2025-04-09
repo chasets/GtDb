@@ -13,7 +13,8 @@ ChinookDbAccess class >> groupClassname [
 ChinookDbAccess >> retrieve [
 	| results |
 	results := self query: self sql.
-	rawData := results
+	rawData := results.
+	^ rawData
 ]
 
 { #category : #'as yet unclassified' }
