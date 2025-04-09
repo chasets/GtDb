@@ -17,7 +17,7 @@ GtDbInformationSchemaSchemata >> gtSchemataFor: aView [
 
 { #category : #'as yet unclassified' }
 GtDbInformationSchemaSchemata >> items [
-	^ rawData collect: [ :each | GtDbInformationSchemaSchema new databaseObject: self databaseObject; catalogName: self catalogName; rawData: each]
+	^ rawData collect: [ :each | GtDbInformationSchemaSchema new databaseConfig: self databaseConfig; catalogName: self catalogName; rawData: each]
 ]
 
 { #category : #'as yet unclassified' }

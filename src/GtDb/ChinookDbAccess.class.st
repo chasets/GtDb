@@ -10,6 +10,13 @@ ChinookDbAccess class >> groupClassname [
 ]
 
 { #category : #'as yet unclassified' }
-ChinookDbAccess >> retrieve [ 
+ChinookDbAccess >> retrieve [
+	| results |
+	results := self query: self sql.
+	rawData := results
+]
+
+{ #category : #'as yet unclassified' }
+ChinookDbAccess >> sql [
 	self subclassResponsibility
 ]

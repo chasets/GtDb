@@ -12,7 +12,6 @@ Class {
 
 { #category : #accessing }
 GtDbObject >> databaseConfig [
-	databaseConfig ifNil: [databaseConfig := self databaseObject databaseConfig].
 	^ databaseConfig
 ]
 
@@ -28,18 +27,13 @@ GtDbObject >> databaseObject [
 	^ databaseObject
 ]
 
-{ #category : #accessing }
-GtDbObject >> databaseObject: anObject [
-	databaseObject := anObject
-]
-
 { #category : #'as yet unclassified' }
 GtDbObject >> gtDatabaseObjectFor: aView [
 	<gtView>
 	^ aView list 
 		title: 'Database Object';
 		priority: 35;
-		items: [{self databaseObject}]
+		items: [{databaseObject}]
 ]
 
 { #category : #'as yet unclassified' }

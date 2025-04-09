@@ -6,7 +6,7 @@ Class {
 
 { #category : #'as yet unclassified' }
 GtDbInformationSchemaCatalogs >> items [
-	^ rawData collect: [ :each | GtDbInformationSchemaCatalog new databaseObject: self databaseObject; rawData: each]
+	^ rawData collect: [ :each | GtDbInformationSchemaCatalog new databaseConfig: self databaseConfig; rawData: each]
 ]
 
 { #category : #accessing }

@@ -6,7 +6,7 @@ Class {
 
 { #category : #'as yet unclassified' }
 GtDbInformationSchemaTable >> columns [
-	^ GtDbInformationSchemaColumns new databaseObject: self databaseObject; catalogName: self catalogName; schemaName: self schemaName; tableName: self tableName; retrieve
+	^ GtDbInformationSchemaColumns new databaseConfig: self databaseConfig; catalogName: self catalogName; schemaName: self schemaName; tableName: self tableName; retrieve
 ]
 
 { #category : #'as yet unclassified' }
@@ -18,7 +18,7 @@ GtDbInformationSchemaTable >> data [
 
 { #category : #'as yet unclassified' }
 GtDbInformationSchemaTable >> dataWithLimit: aLimitNumber [
-	^ GtDbRows new databaseObject: self databaseObject; query: 'select a.* from ', self schemaName, '.', self name, ' a 
+	^ GtDbRows new databaseConfig: self databaseConfig; query: 'select a.* from ', self schemaName, '.', self name, ' a 
  limit ', aLimitNumber asString; yourself
 ]
 

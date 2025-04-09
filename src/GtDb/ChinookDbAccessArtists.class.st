@@ -10,6 +10,6 @@ ChinookDbAccessArtists class >> groupClassname [
 ]
 
 { #category : #'as yet unclassified' }
-ChinookDbAccessArtists >> retrieve [
-	^ self query: 'select * from artist'
+ChinookDbAccessArtists >> sql [
+	^ 'select * from artist'
 ]

@@ -5,6 +5,11 @@ Class {
 }
 
 { #category : #'as yet unclassified' }
+GtDbRows >> asRawData [
+	^ self items asOrderedCollection collect: #rawData
+]
+
+{ #category : #'as yet unclassified' }
 GtDbRows >> gtResultsFor: aView [
 	<gtView>
 	| view cols numColsToDisplay |
@@ -23,11 +28,5 @@ GtDbRows >> gtResultsFor: aView [
 
 { #category : #'as yet unclassified' }
 GtDbRows >> items [
-	^ rawData collect: [ :each | GtDbRow new databaseObject: self databaseObject; rawData: each ] 
-]
-
-{ #category : #'as yet unclassified' }
-GtDbRows >> rawData [
-	rawData ifNil: [rawData := self databaseObject structuredResults].
-	^ rawData
+	^ rawData collect: [ :each | GtDbRow new databaseConfig: self databaseConfig; rawData: each ]
 ]

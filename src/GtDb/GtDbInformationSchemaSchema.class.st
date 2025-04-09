@@ -29,6 +29,6 @@ GtDbInformationSchemaSchema >> schemaName [
 
 { #category : #'as yet unclassified' }
 GtDbInformationSchemaSchema >> tables [
-	tables ifNil: [tables := GtDbInformationSchemaTables new databaseObject: self databaseObject; retrieveForSchema: self name].
+	tables ifNil: [tables := GtDbInformationSchemaTables new databaseConfig: self databaseConfig; catalogName: self catalogName; schemaName: self schemaName; retrieve].
 	^ tables sorted
 ]

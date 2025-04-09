@@ -113,7 +113,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-04-07T13:02:22.717509-04:00"
+												"dateAndTimeString" : "2025-04-09T08:29:12.578778-04:00"
 											}
 										},
 										"uid" : {
@@ -123,7 +123,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "b. the ability to answer a `retrieve` message that returns (generally) an OrderedCollection of Dictionaries that will be used to \"populate\" the domain group"
+										"string" : "b. the ability to answer a `retrieve` message that (generally) executes a query to populate its rawData of Dictionaries that will be further used to \"populate\" the domain group"
 									}
 								]
 							},
@@ -400,7 +400,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-07T13:41:24.902356-04:00"
+									"dateAndTimeString" : "2025-04-09T08:27:54.458307-04:00"
 								}
 							},
 							"uid" : {
@@ -546,6 +546,40 @@
 					"uidString" : "6U74kZXuDQCOpgHSDmmKFg=="
 				},
 				"code" : "ChinookAlbums new config: config; populate"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-07T13:58:06.397722-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-04-07T13:58:12.926505-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BDUVt5XuDQCPnQkRDmmKFg=="
+				},
+				"code" : "ChinookArtists new config: config; populate"
 			}
 		]
 	},
