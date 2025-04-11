@@ -220,14 +220,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-04-11T09:40:40.087848-04:00"
+												"dateAndTimeString" : "2025-04-11T09:40:58.78295-04:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "Pi/iMajuDQC7rqURAjB6YQ=="
 										},
-										"code" : "dbConfig := GtDbSqliteConfig new .\rdriver := (dbConfig databaseDriverClassname) asClass new. \rdriver databaseConfig respondsTo: 'informationSchemaSqlClassname' asSymbol"
+										"code" : "dbConfig := GtDbSqliteConfig new .\rdriver := (dbConfig databaseDriverClassname) asClass new databaseConfig: dbConfig. \rdriver databaseConfig respondsTo: 'informationSchemaSqlClassname' asSymbol"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -571,14 +571,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-08T16:25:31.44977-04:00"
+									"dateAndTimeString" : "2025-04-11T09:56:07.877284-04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "sRqu9aXuDQCHX8CKDmmKFg=="
 							},
-							"code" : "GtDbInformationSchemaSchemata new databaseConfig: dbConfig; catalogName: 'main'; retrieve."
+							"code" : "GtDbInformationSchemaSchemata new databaseConfig: dbConfig; catalogName: '\"main\"'; retrieve."
 						},
 						{
 							"__type" : "pharoSnippet",
