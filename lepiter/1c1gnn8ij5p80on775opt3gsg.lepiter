@@ -220,14 +220,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-04-09T11:11:44.312726-04:00"
+												"dateAndTimeString" : "2025-04-11T09:40:58.78295-04:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "Pi/iMajuDQC7rqURAjB6YQ=="
 										},
-										"code" : "driver := (GtDbSqliteConfig new databaseDriverClassname) asClass new. \rdriver respondsTo: 'informationSchemaSqlClassname' asSymbol"
+										"code" : "dbConfig := GtDbSqliteConfig new .\rdriver := (dbConfig databaseDriverClassname) asClass new databaseConfig: dbConfig. \rdriver databaseConfig respondsTo: 'informationSchemaSqlClassname' asSymbol"
 									},
 									{
 										"__type" : "pharoSnippet",

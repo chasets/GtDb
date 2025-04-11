@@ -27,8 +27,8 @@ GtDbInformationSchemaRows >> defaultinformationSchemaSqlProviderClassname [
 { #category : #'as yet unclassified' }
 GtDbInformationSchemaRows >> informationSchemaSqlProvider [
 	| sqlProviderClassname |
-	(self databaseObject respondsTo: #informationSchemaSqlClassname)
-		ifTrue: [ sqlProviderClassname := databaseObject informationSchemaSqlClassname ]
+	(self databaseObject databaseConfig respondsTo: #informationSchemaSqlClassname)
+		ifTrue: [ sqlProviderClassname := self databaseObject databaseConfig informationSchemaSqlClassname ]
 		ifFalse: [ sqlProviderClassname := self defaultinformationSchemaSqlProviderClassname ].
 	^ sqlProviderClassname asClass new
 ]

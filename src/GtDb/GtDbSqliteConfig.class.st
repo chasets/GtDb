@@ -9,6 +9,11 @@ GtDbSqliteConfig >> databaseDriverClassname [
 	^ 'ChinookSqliteAccessObject'
 ]
 
+{ #category : #'as yet unclassified' }
+GtDbSqliteConfig >> informationSchemaSqlClassname [
+	^ 'InformationSchemaSqliteSql'
+]
+
 { #category : #accessing }
 GtDbSqliteConfig >> sqlitePath [
 	^ ChinookDataRepo new sqliteFile

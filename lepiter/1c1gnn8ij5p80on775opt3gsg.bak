@@ -220,14 +220,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-04-09T11:11:44.312726-04:00"
+												"dateAndTimeString" : "2025-04-11T09:40:40.087848-04:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "Pi/iMajuDQC7rqURAjB6YQ=="
 										},
-										"code" : "driver := (GtDbSqliteConfig new databaseDriverClassname) asClass new. \rdriver respondsTo: 'informationSchemaSqlClassname' asSymbol"
+										"code" : "dbConfig := GtDbSqliteConfig new .\rdriver := (dbConfig databaseDriverClassname) asClass new. \rdriver databaseConfig respondsTo: 'informationSchemaSqlClassname' asSymbol"
 									},
 									{
 										"__type" : "pharoSnippet",
@@ -744,7 +744,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-04-09T11:52:24.062367-04:00"
+									"dateAndTimeString" : "2025-04-09T11:52:29.672044-04:00"
 								}
 							},
 							"uid" : {
@@ -754,7 +754,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Note about exploring via GtDbInformationSchemaTables. You can write ad hoc queries that are returned as GtDbRows. Since the sqlite driver turns each of those row objects into Dictionaries, then the ordering of columns is lost. So, regardless of the column order in the query,  the GtDbRow will be arbitrary order. When we write our own driver (GtDbUsql) then we should be able to change that. No reason the extend SQLite3Row"
+							"string" : "Note about exploring via GtDbInformationSchemaTables. You can write ad hoc queries that are returned as GtDbRows. Since the sqlite driver turns each of those row objects into Dictionaries, then the ordering of columns is lost. So, regardless of the column order in the query,  the GtDbRow will be arbitrary order. When we write our own driver (GtDbUsql) then we should be able to change that. No reason the extend SQLite3Row for this example. "
 						},
 						{
 							"__type" : "textSnippet",
